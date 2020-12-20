@@ -1,0 +1,59 @@
+<!--
+File: https://alinaryan.github.io/GUIHW8V2
+ Assignment: Scrabble Table game
+ Alina Ryan, UMass Lowell Computer Science, alina_ryan@student.uml.edu
+ Copyright (c) 2020 by Alina Ryan. All rights reserved. May be
+ freely copied or excerpted for educational purposes with credit to the
+ author.
+ Updated by Alina Ryan on Dec 17, 2020  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- CSS source -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <title>Scrabble Game</title>
+</head>
+<body>
+  <!-- Game jumbotron -->
+<div class="jumbotron">
+<h1 class="display-4">Welcome to Scrabble!</h1>
+<p class="lead">Drag and drop letters to the board to form a word.</p>
+<hr class="my-4">
+</div>
+<div class="board">
+<div class="empty defaultTile"></div>
+<div class="empty doubleWord"></div>
+<div class="empty defaultTile"></div>
+<div class="empty defaultTile"></div>
+<div class="empty defaultTile"></div>
+<div class="empty doubleWord"></div>
+<div class="empty defaultTile"></div>
+</div>
+
+<div class="letterRack">
+<div class="fill" draggable="true"> </div>
+<div class="fill" draggable="true"> </div>
+<div class="fill" draggable="true"> </div>
+<div class="fill" draggable="true"> </div>
+<div class="fill" draggable="true"> </div>
+<div class="fill" draggable="true"> </div>
+<div class="fill" draggable="true"> </div>
+</div>
+
+<div class="text-center">
+  <!-- Submit button -->
+  <button type="button" class="btn btn-success">Submit</button>
+  <!-- Restart button -->
+  <button type="button" class="btn btn-primary">Restart</button>
+</div>
+
+  <!-- Script source -->
+  <script src="js/main.js"></script>
+</body>
+</html>
